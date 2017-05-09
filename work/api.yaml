@@ -23,12 +23,12 @@ produces:
 
 paths:
   /talks:
-      get:
-        summary: Get a list of talks
-        description: Retrieve a list of talks
-        responses:
-          200:
-            description: OK
+    get:
+      summary: Get a list of talks
+      description: Retrieve a list of talks
+      responses:
+        200:
+          description: OK
 
   /speakers:
     get:
